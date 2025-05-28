@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install -U pip && pip install -e .
 
-CMD ["redbot", "--token", "${TOKEN}", "--prefix", "!"]
+CMD ["redbot", "--token", "${TOKEN}", "--prefix", "!", "default"]
